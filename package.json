@@ -1,0 +1,22 @@
+{
+  "name": "bun-test-bot",
+  "version": "1.0.0",
+  "author": "",
+  "main": "slack.ts",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "description": "bun-test-bot",
+  "keywords": [],
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "bun": "bun slack.ts",
+    "node": "node --import=tsimp/import --env-file=.env slack.ts"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.0.2",
+    "tsimp": "^2.0.11"
+  }
+}
